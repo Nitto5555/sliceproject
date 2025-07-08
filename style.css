@@ -38,3 +38,16 @@ body{
 p.header{
 padding-top:10px;
 }
+
+
+button.greenbutton{
+  background-color: #ffffff;
+}
+
+button.greenbutton:hover{
+  background-color: #63ed39;
+}
+
+button.greenbutton:active{
+  background-color: #387326;
+}
