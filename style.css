@@ -49,6 +49,7 @@ transition: 0.5s;
 padding-top: 35px;
 border: #ffffff solid 0px;
 color:fff;
+font-size: 20px;
 }
 
 button.greenbutton:hover{
