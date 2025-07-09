@@ -73,8 +73,9 @@ button.greenbutton:active{
 		border-radius: 20px;
 		color: #ffffff;
 		font-size: 30px;
-    transition: 0.5s;
+    transition: 0.3s;
 	}
 	button:hover{
 		background-color: #155315;
+    margin-bottom: 10px;
 	}
