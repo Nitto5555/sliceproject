@@ -63,3 +63,18 @@ button.greenbutton:active{
   background-color: #387326;
   transition: 0.5s;
 }
+
+	button{
+		background-color: #0edd0e;
+		text-align: center;
+		width: 150px;
+		height: 50px;
+		border: #0edd0e solid 0px;
+		border-radius: 20px;
+		color: #ffffff;
+		font-size: 30px;
+    transition: 0.5s;
+	}
+	button:hover{
+		background-color: #155315;
+	}
