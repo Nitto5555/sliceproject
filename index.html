@@ -11,6 +11,8 @@ div.loading{
 	border:#ffffff solid 2px;
 	animation: 500px;
 	align-items: center;
+	z-index: 3;
+
 }
 
 @keyframes loading {
@@ -21,7 +23,7 @@ div.loading{
 @keyframes welcome {
 	0% {backdrop-filter: blur(100px);}
 	80% {backdrop-filter: blur(100px);}
-	100% {backdrop-filter: blur(0px);}
+	100% {backdrop-filter: blur(0px);width:0%;}
 }
 
 div.welcome {
