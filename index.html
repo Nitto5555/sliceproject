@@ -7,12 +7,18 @@
 
 <style>
 	
+div.loadingframe{
+	width: 1500px;
+	height: 100px;
+	align-self: center;
+	margin-top: 70%;
+}
+
 div.loading{
-	border:#ffffff solid 2px;
-	animation: 500px;
+	animation: loading 5s forwards;
 	align-items: center;
 	z-index: 3;
-
+	height: 100%;
 }
 
 @keyframes loading {
@@ -21,7 +27,7 @@ div.loading{
 }
 
 @keyframes welcome {
-	0% {backdrop-filter: blur(100px);}
+	0% {backdrop-filter: blur(10px);}
 	80% {backdrop-filter: blur(100px);}
 	99% {backdrop-filter: blur(0px);width:100%;}
 	100% {backdrop-filter: blur(0px);width:0%;}
@@ -45,6 +51,10 @@ div.welcome {
 <div class="a"></div>
 <div class="b"></div>
 <div class="c"></div>
+
+<div class="loadingframe">
+
+</div>
 
 <header>
 <p class=header>
