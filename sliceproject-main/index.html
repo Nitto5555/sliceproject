@@ -1,0 +1,91 @@
+<html>
+	<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<style>
+	
+div.loadingframe{
+	width: 1500px;
+	height: 100px;
+	align-self: center;
+	margin-top: 70%;
+	z-index: 4;
+	position: fixed;
+	animation: loadingframes 5s 1;
+	background-color: #ffffff;
+}
+
+div.loading{
+	animation: loading 5s forwards;
+	align-items: center;
+	z-index: 3;
+	height: 100%;
+}
+
+@keyframes loading {
+	0% { width:0%;}
+	100% { width:100%;}
+}
+
+@keyframes welcome {
+	0% {backdrop-filter: blur(10px);}
+	80% {backdrop-filter: blur(10px);}
+	90% {backdrop-filter: blur(0px);height:100%;}
+	100% {backdrop-filter: blur(0px);height:0%;}
+}
+
+div.welcome {
+	z-index: 2;
+	width: 100%;
+	position: fixed;
+	animation: welcome 5s forwards;
+}
+
+</style>
+
+	</head>
+	<body bgcolor="#ffffff" align="center">
+
+
+
+<header>
+<p class=header>
+Github.com 
+</p>
+</header>
+		<table class="content" align=center>
+			<tr>
+				<td align=center>
+					<img bgcolor="#ffffff" class="githublogo" src="img/GitHub-Logo.png">
+				</td>
+			</tr>
+		</table>
+<footer>
+  <table style="width:100%; padding:20px;">
+    <tr>
+		  <td align="left">
+		    <a href="page1.html">
+				<button>
+					Back
+				</button>
+		    </a>
+		  </td>
+      <td align=center>
+        <p style="padding-top:0px;font-size:35px; color:#ffffff;"> Create by Nitikorn Moontongchun M.5/1 No.1</p>
+      </td>
+		  <td align="right">
+		    <a href="page1.html">
+				<button>
+					Next
+				</button>
+		    </a>
+		  </td>
+	  </tr>
+	</table>
+</footer>
+
+	</body>
+</html>
